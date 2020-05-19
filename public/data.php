@@ -3,7 +3,7 @@
 function get_rating($name)
 {
         /* Database INFO */
-	$servername = "wyvern.cs.newpaltz.edu";
+	$servername = "cs.newpaltz.edu";
 	$username = "mudupus1";
 	$password = "u9nd56";
 	$dbname = "mudupus1_db";
