@@ -27,7 +27,7 @@ function response($status,$status_message,$data)
 	
 	$response['status']=$status;
 	$response['status_message']=$status_message;
-	$response['data']=$rating;
+	$response['data']=$data;
 	
 	$json_response = json_encode($response);
 	echo $json_response;
